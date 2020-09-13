@@ -17,6 +17,7 @@ curl_setopt($ch, CURLOPT_INFILE, $fp);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 $response = curl_exec($ch);
 
+//get api response
 echo $response;
 curl_close($ch);
 fclose($fp);
